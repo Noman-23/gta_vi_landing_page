@@ -1,11 +1,14 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Hero from './sections/Hero';
+import NavBar from './sections/NavBar';
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
-    <main className='text-pink'>
-      <div>App</div>
+    <main className=''>
+      <NavBar />
+      <Hero />
     </main>
   );
 };
